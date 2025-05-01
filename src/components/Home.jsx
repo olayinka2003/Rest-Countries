@@ -76,7 +76,7 @@ export default function Home({ data, isDarkMode, setIsDarkMode }) {
         <select
           value={region}
           onChange={handleRegionChange}
-          className={`p-4 shadow focus:outline-0 w-[80%] cursor-pointer ${
+          className={`p-4 shadow focus:outline-0 w-[80%] lg:w-[20%] cursor-pointer ${
             isDarkMode ? "bg-[#2b3945] text-white" : "bg-white text-black"
           }`}
         >
